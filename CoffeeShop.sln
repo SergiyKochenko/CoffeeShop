@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop", "CoffeeShop\CoffeeShop.csproj", "{D2EC2C93-7607-4ED6-84A6-A759E3644CEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A709C549-82F4-400B-A332-3C9BD30B7C56}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2EC2C93-7607-4ED6-84A6-A759E3644CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EC2C93-7607-4ED6-84A6-A759E3644CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EC2C93-7607-4ED6-84A6-A759E3644CEE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D2EC2C93-7607-4ED6-84A6-A759E3644CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EC2C93-7607-4ED6-84A6-A759E3644CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EC2C93-7607-4ED6-84A6-A759E3644CEE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FAA7777-50BE-4479-BDFE-573EB5A6F221}
+	EndGlobalSection
+EndGlobal
