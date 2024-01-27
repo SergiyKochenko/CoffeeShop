@@ -24,11 +24,14 @@
         public decimal? MinAmount { get; set; } // if null, that means no minimum amount is required
         public DateTime? ValidTill { get; set; } // if null, that means lifetime validity
         public bool IsActive { get; set; }
+        public string BgColor { get; set; }
 
-        public Offer(int id, string name, string image, string description, string code, OfferType offerType, decimal offeredValue, decimal? minAmount, DateTime? validTill)
+
+        public Offer(int id, string name, string image, string description, string code, OfferType offerType, decimal offeredValue, decimal? minAmount, DateTime? validTill, string bgColor = "Red")
         {
             Id = id;
             Name = name;
+            Image = image;
             Description = description;
             Code = code;
             OfferType = offerType;
@@ -36,6 +39,7 @@
             MinAmount = minAmount;
             ValidTill = validTill;
             IsActive = true;
+            BgColor = bgColor;
         }
 
         public Offer() 

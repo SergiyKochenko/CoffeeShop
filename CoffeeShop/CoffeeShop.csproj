@@ -70,7 +70,7 @@
 	  <None Remove="Resources\Images\map.svg" />
 	  <None Remove="Resources\Images\nonveg.png" />
 	  <None Remove="Resources\Images\orders.svg" />
-	  <None Remove="Resources\Images\percent_50p.jpg" />
+	  <None Remove="Resources\Images\percent_50p.png" />
 	  <None Remove="Resources\Images\pizza.png" />
 	  <None Remove="Resources\Images\rice.png" />
 	  <None Remove="Resources\Images\sale_40_percent.png" />

@@ -26,47 +26,47 @@
                 ColumnDefinitions="Auto, *, Auto"
                 ColumnSpacing="10"
                 Padding="15, 10, 15, 5"
-                  BackgroundColor="AliceBlue">
+                BackgroundColor="AliceBlue">
 
                 <!--First Row-->
 
                 <Image Grid.Row="0"
-     Grid.Column="0"
-     Source="home.png"
-     HeightRequest="18"
-     WidthRequest="18"
-     HorizontalOptions="Start"/>
+                     Grid.Column="0"
+                     Source="home.png"
+                     HeightRequest="18"
+                     WidthRequest="18"
+                     HorizontalOptions="Start"/>
 
                 <HorizontalStackLayout Grid.Row="0"
-             Grid.Column="1"
-             Spacing="10">
+                     Grid.Column="1"
+                     Spacing="10">
                     <Label Text="Home"
-        FontAttributes="Bold"
-        FontSize="16" />
+                        FontAttributes="Bold"
+                        FontSize="16" />
 
                     <Label Text=">"
-        Rotation="90"
-        VerticalOptions="Center"
-        ScaleY="1.5"
-        FontSize="16" />
+                        Rotation="90"
+                        VerticalOptions="Center"
+                        ScaleY="1.5"
+                        FontSize="16" />
 
                 </HorizontalStackLayout>
 
                 <Image Grid.Row="0"
-      Grid.Column="2"
-      Source="user.png"
-      Aspect="AspectFill"
-      HeightRequest="18"
-      WidthRequest="18" />
+                      Grid.Column="2"
+                      Source="user.png"
+                      Aspect="AspectFill"
+                      HeightRequest="18"
+                      WidthRequest="18" />
 
                 <!--Second Row - Search Bar-->
 
                 <Border Grid.Row="1"
-         Grid.ColumnSpan="3"
-         BackgroundColor="#eee"
-         StrokeShape="RoundRectangle 10"
-         Padding="0"
-         Margin="0, 10, 0, 0">
+                     Grid.ColumnSpan="3"
+                     BackgroundColor="#eee"
+                     StrokeShape="RoundRectangle 10"
+                     Padding="0"
+                     Margin="0, 10, 0, 0">
                     <Grid Padding="10, 0, 30, 0">
 
                         <Entry Placeholder="Search for restaurant or dish"
